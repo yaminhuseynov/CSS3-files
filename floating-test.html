@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <style>
+
+        *{
+
+            box-sizing: border-box;
+
+        }
+
+        h1{
+
+            margin: 0;
+
+        }
+
+        .header, footer{
+
+            background-color: #ED5AB3;
+            padding: 20px;
+            color: white;
+        }
+
+
+        .menu{
+
+            width: 25%;
+            background-color: rgb(255, 255, 255);
+            height: 300px;
+            float: left;
+        }
+
+        .menu ul{
+
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .menu li{
+
+            padding: 8px ;
+            margin-bottom: 8px;
+            background-color: #502064;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .menu li:hover{
+            cursor: pointer;
+            background-color: rgb(17, 113, 197);
+
+        }
+
+        .content{
+
+            width: 75%;
+            background-color: rgb(255, 255, 255);
+            height: 300px;
+            float: right;
+        }
+
+
+        .clearfix::after{
+
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+       
+        .col{
+
+            float: left;
+            padding: 15px 15px 15px 0;
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <header class="header">
+
+        <h1>Header</h1>
+
+    </header>
+
+
+    <main class="clearfix">
+
+        <div class="menu col">
+            <ul>
+
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>Java</li>
+                <li>C#</li>
+                
+                
+
+            </ul>
+        </div>
+        <div class="content col">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim, iusto reprehenderit ad error quam excepturi, reiciendis iste illum alias a assumenda dicta quis impedit vel odio? Deserunt libero esse cupiditate eius. Natus magnam beatae, veniam sapiente harum nisi nostrum dolorum quod sequi perferendis atque cum ex, minus qui nam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error at quibusdam maxime alias omnis inventore explicabo incidunt fuga magnam ab. Laudantium beatae consequuntur sapiente similique perferendis error quidem, pariatur distinctio aperiam sed ipsam. Fugiat quidem ducimus quaerat iste autem, vel mollitia magnam! Esse nostrum fuga asperiores natus blanditiis architecto dolor.</p>
+        </div>
+
+    </main>
+    
+
+
+    <footer class="footer">
+
+        <h1>Footer</h1>
+
+    </footer>
+
+
+</body>
+</html>
